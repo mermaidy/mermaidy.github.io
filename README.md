@@ -1,4 +1,6 @@
-mermaidy.github.io
-==================
+uberobert.com
+=============
 
-blog
+Jekyll Source for my Blog! Huzzah! 
+
+[uber robert](http://uberobert.com)
