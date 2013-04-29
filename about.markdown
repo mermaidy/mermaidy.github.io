@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Bio
+title: 关于我~
 ---
 
-<p>I'm an IT professional, Systems Engineer and budding entrepreneur. I work for <a href="http://us.etrade.com">E*Trade</a>, I love automating things and dream of the day when deploying code is so simple that we never have to login to a Linux box.</p>
+<p>分享欢乐，喜欢美好事物的女纸一枚</p>
 
-<p>I'm also a book worm, traveler, scuba diver, sailor, aquarist, horticulturist, foodie, husband, and father. If only there was more time in the world... If you really want to know more about me then check out my <a href="http://about.me/robert.birnie">about.me</a> for a list of other places I commonly lurk.</p>
+<p>一不留神走入了科学的殿堂，慢慢发现了科学和艺术的美妙，孜孜追求生活的美好，我是现在流行的叫法叫做第三类人，但是我仍然坚持自己的生活~ 一直在路上，坚持着，努力着，希望用美好来温暖人们的心灵~</p>
 
-<p>If you have any thoughts while reading this site I'd love to hear them. You can contact me on <a href="http://twitter.com/Robert_Birnie">Twitter</a>, or via <a href="mailto:rbirnie@gmail.com">email</a>. Thanks for reading!</p>
+<p>可以到这个地址去下载我的CV哦，欢迎和我联系！</p>
