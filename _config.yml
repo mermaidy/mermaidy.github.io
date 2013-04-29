@@ -1,7 +1,7 @@
 # Jekyll
 exclude: nbproject, README.md, manifest.yml, rakefile.rb, Gemfile, Gemfile.lock, update.sh
 permalink:   /:title
-url:         http://www.uberobert.com
+url:         http://www.yujunc.com
 
 safe:        false
 auto:        false
@@ -12,7 +12,7 @@ markdown:    rdiscount
 
 # Site
 uberobert:
-    title: Uberobert
+    title: Yujun
 
 # Only First P Plugin
 only_first_p:
