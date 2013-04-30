@@ -2,8 +2,8 @@
 title: A Random Walk Down Wall Street
 layout: default
 author:
-  name: Robert Birnie
-  url: http://uberobert.com
+  name: Yujun CHEN
+  url: http://yujunc.com
 ---
 
 Although my profession is in the technology industry, I've always been interested in finance, Wall Street and investing. I've read a number of personal investment books and just finished reading [A Random Walk Down Wall Street](http://www.amazon.com/Random-Walk-Down-Wall-Street/dp/0393340740/). I must say this is the best investment book I've read so far. Most books I've read have fit in either the "inside view into the world of finance" (i.e. [The Big Short](http://www.amazon.com/Big-Short-Inside-Doomsday-Machine/dp/B00ANYJ3NI/)) or a more basic "follow this formula and you'll be rich" (i.e. [You're Money Ratios](http://www.amazon.com/Your-Money-Ratios-Financial-ebook/dp/B002YJK5O6/)). This book takes a stab at both categories by first picking apart the wider finance industry and its pitfalls and then looking at how you should invest to work around all the sharks out there. 
