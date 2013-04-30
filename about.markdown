@@ -1,10 +1,22 @@
 ---
-layout: default
-title: 关于我~
+title: about
+layout: page
 ---
 
-<p>分享欢乐，喜欢美好事物的女纸一枚</p>
+a
 
-<p>一不留神走入了科学的殿堂，慢慢发现了科学和艺术的美妙，孜孜追求生活的美好，我是现在流行的叫法叫做第三类人，但是我仍然坚持自己的生活~ 一直在路上，坚持着，努力着，希望用美好来温暖人们的心灵~</p>
+> Minimalist | Appleist | Unixer | Coder
 
-<p>可以到这个地址去下载我的CV哦，欢迎和我联系！</p>
+who involved in 
+
+> [github](https://github.com/waynezhang)
+
+mail 
+
+> echo srvpqxfbyqfvpdtkbjwt | tr yxwvtsrqpkjfdb zuonmlihgeca@.
+
+or follow 
+
+> [@o_lll](https://twitter.com/#!/o_lll)
+
+to reach me
