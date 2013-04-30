@@ -1,19 +1,4 @@
-# Jekyll
-exclude: nbproject, README.md, manifest.yml, rakefile.rb, Gemfile, Gemfile.lock, update.sh
-permalink:   /:title
-url:         http://www.yujunc.com
-
-safe:        false
-auto:        false
-
-future:      false
-pygments:    true
-markdown:    rdiscount
-
-# Site
-uberobert:
-    title: Yujun
-
-# Only First P Plugin
-only_first_p:
-    show_read_more_link: false
+paginate: 10
+pygments: true
+markdown: rdiscount
+permalink: /:year/:month/:day/:title/

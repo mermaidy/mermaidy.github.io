@@ -1,6 +1,10 @@
-uberobert.com
-=============
+flyerhzm.github.com
+===================
 
-Jekyll Source for my Blog! Huzzah! 
+my blog <http://huangzhimin.com>
 
-[uber robert](http://uberobert.com)
+Usage
+-----
+
+    bundle install
+    bundle exec ejekyll

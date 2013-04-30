@@ -1,5 +1,7 @@
 source "http://rubygems.org"
 
-gem "jekyll", "0.12.0"
-gem "nokogiri", "1.5.6"
-
+gem "jekyll", "0.10.0"
+gem "jekyll_ext"
+gem "liquid", "2.2.2"
+gem "rdiscount"
+gem "nokogiri"
