@@ -1,49 +1,29 @@
 ---
-layout: default
-title: Richard Huang's Website
+layout: base
+title: metajack.im - a blog about startups and code
 ---
-{% for post in paginator.posts %}
-  <div class="full">
-    <h1 class="entry-title">
-      <a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a>
-    </h1>
-    <div class="entry-content full-content">
-      {{ post.content | truncatehtml: 500 }}
-      <a href="{{ post.url }}" class="read_more">read more</a>
-      <div class="clear"></div>
-    </div>
-    <p class="alt-font tight">
-      Posted in&nbsp;
-      {% for category in post.categories %}
-      <a href="/categories/{{ category }}" title="{{ category }}" rel="category tag">{{ category }}</a>
-      {% endfor %}
-    </p>
-    <p class="comments-link">
-      <a href='{{post.url}}#disqus_thread'>Comments</a>
-    </p>
-    <p class="by-line">
-      <span class="date full-date">
-        <abbr class="published" title="{{ post.date }}">{{ post.date | date_to_string }}</abbr>
-      </span>
-    </p>
-    <div class="clear"></div>
-  </div>
-  <div class="rule"><hr/></div>
+
+{% assign hide_extended = true %}
+{% assign show_comments = true %}
+
+{% for post in site.posts limit:1 %}
+{% include post.html %}
 {% endfor %}
 
-<div class="pagination">
-  <span class="previous">
-    {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-      <a href="/blog.html" title="Previous Page">&laquo; Previous</a>
-      {% else %}
-      <a href="/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; Previous</a>
-      {% endif %}
-    {% endif %}
-  </span>
-  <span class="next">
-    {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}/" title="Next Page">Next &raquo;</a>
-    {% endif %}
-  </span>
-</div>
+{% include break.html %}
+
+<aside class='recent-posts'>
+  <header>
+    <h1>Recently</h1>
+  </header>
+  
+  <ol>
+    {% for rpost in site.posts limit:5 offset:1 %}
+    <li><time datetime='{{ rpost.date | date_to_utc | date:"%Y-%m-%dT%H:%M:%SZ" }}'>{{ rpost.date | date:"%m-%d" }}</time> <a href="{{ rpost.url }}">{{ rpost.title }}</a></li>
+    {% endfor %}
+  </ol>
+
+  <p class='archive'>Browse the <a href='/archive/'>archive</a>.</p>
+</aside>
+
+

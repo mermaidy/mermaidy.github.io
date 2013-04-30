@@ -1,43 +1,15 @@
 ---
-layout: default
+layout: base
 ---
-<div class="full">
-  <h1 class="entry-title">
-    <a href="{{ page.url }}" title="{{ page.title }}" rel="bookmark">{{ page.title }}</a>
-  </h1>
-  <div class="entry-content full-content">
-    {{ content }}
-    <div class="clear"></div>
-  </div>
-  <p class="alt-font tight">
-    Posted in&nbsp;
-    {% for category in page.categories %}
-    <a href="/categories/{{ category }}" title="{{ category }}" rel="category tag">{{ category }}</a>
-    {% endfor %}
-  </p>
-  <p class="by-line">
-    <span class="date full-date">
-      <abbr class="published" title="{{ page.date }}">{{ page.date | date_to_string }}</abbr>
-    </span>
-  </p>
-  <div class="clear"></div>
-</div>
-<div class="rule">
-  <hr/>
-</div>
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-  var disqus_shortname = 'richard-huang';
+{% include post.html %}
 
-  var disqus_url = "http://www.huangzhimin.com{{page.url}}";
+<aside id="disqus_thread"></aside>
 
-  (function() {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+<script type="text/javascript" src="http://disqus.com/forums/metajack/embed.js"></script>
+<noscript>
+  <a href="http://metajack.disqus.com/?url=ref">View the discussion thread.</a>
+</noscript>
+
+{% include break.html %}
 
